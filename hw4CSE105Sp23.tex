@@ -1,0 +1,93 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage[
+    letterpaper,
+    margin=0.4in,
+    tmargin=0.7in,
+    bmargin=0.7in,
+    headsep=12pt,
+    footskip=12pt
+]{geometry}
+
+\theoremstyle{definition}
+\newtheorem*{ques}{Question}
+
+\renewcommand{\Re}{\operatorname{Re}}
+\newcommand{\diam}{\operatorname{diam}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\trace}{\operatorname{trace}}
+\newcommand{\kleene}{^\ast}
+\newcommand{\SUBSTRING}{\text{SUBSTRING}}
+\newcommand{\REP}{\text{REP}}
+
+% <Laplace Transform>
+\usepackage{mathrsfs}
+\newsavebox\foobox
+\newlength{\foodim}
+\newcommand{\slantbox}[2][0]{\mbox{%
+        \sbox{\foobox}{#2}%
+        \foodim=#1\wd\foobox
+        \hskip \wd\foobox
+        \hskip -0.5\foodim
+        \pdfsave
+        \pdfsetmatrix{1 0 #1 1}%
+        \llap{\usebox{\foobox}}%
+        \pdfrestore
+        \hskip 0.5\foodim
+}}
+\def\Laplace{\slantbox[-.45]{$\mathscr{L}$}}
+% </Laplace Transform>
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{CSE 105}
+\lhead{
+    Devanshi Jain, Matthew Stringer 
+}
+\chead{HW 4}
+\cfoot{\thepage}
+
+\title{CSE 105 HW 4}
+\author{
+    Devanshi Jain, Matthew Stringer 
+}
+% \date{}
+
+\renewcommand{\ques}[1]{\section*{Question #1.}}
+
+\begin{document}
+    \maketitle
+    \ques{1}
+    \paragraph{(a)}
+        \textbf{Answer: } 
+    \paragraph*{(b)}
+        \textbf{Answer: }  
+    \paragraph*{(c)}
+        \textbf{Answer: } 
+    \paragraph*{(d)}
+        \textbf{Answer: }
+    
+    \ques{2}
+    \paragraph*{(a)}
+        \textbf{Answer: } 
+    \paragraph*{(b)}
+        \textbf{Answer: } 
+
+    \ques{3}
+    \paragraph*{(a)} 
+        \textbf{Answer: } 
+    \paragraph*{(b)}
+        \textbf{Answer: }
+    \paragraph*{(c)}
+        \textbf{Answer: }
+  \end{document}
