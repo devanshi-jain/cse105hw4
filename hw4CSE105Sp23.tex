@@ -79,7 +79,21 @@
     
     \ques{2}
     \paragraph*{(a)}
-        \textbf{Answer: } 
+        \textbf{Answer: } We can define the following context-free 
+        grammar for $\REP({0^n1^n \mid n \ge 0})$:
+        \begin{align*}
+        S &\to \epsilon \mid 2AS2\\
+        A &\to 0A1 \mid \epsilon
+        \end{align*}
+        Intuitively, $S$ generates all strings in 
+        $\REP({0^n1^n \mid n \ge 0})$ by allowing the production of 
+        the empty string or strings that begin and end with $2$ and 
+        have a sequence of $0$s and $1$s in between. The $A$ 
+        nonterminal generates any valid sequence of $0$s and $1$s.
+        $w = \epsilon$
+        \begin{align*}
+            S &\Rightarrow \epsilon
+        \end{align*}
     \paragraph*{(b)}
         \textbf{Answer: } 
 
@@ -90,4 +104,4 @@
         \textbf{Answer: }
     \paragraph*{(c)}
         \textbf{Answer: }
-  \end{document}
+\end{document}
