@@ -90,10 +90,31 @@
         the empty string or strings that begin and end with $2$ and 
         have a sequence of $0$s and $1$s in between. The $A$ 
         nonterminal generates any valid sequence of $0$s and $1$s.
-        $w = \epsilon$
+        Examples:
+        \begin{itemize}
+        \item $w = \epsilon$ is in $\REP(\{0^n1^n \mid n \ge 0\})$
+        with the derivation:
         \begin{align*}
-            S &\Rightarrow \epsilon
+        S &\Rightarrow \epsilon
         \end{align*}
+                \item $w = 200112$ is in $\REP(\{0^n1^n \mid n \ge 0\})$
+                with the derivation:
+        \begin{align*}
+        S &\Rightarrow 2AS2 \Rightarrow 20A1S2 \Rightarrow 200A11S2 
+        \Rightarrow 200\epsilon11\epsilon22 \Rightarrow 2001122
+        \end{align*}
+
+        \item $w = 20102$ is not in $\REP(\{0^n1^n \mid n \ge 0\})$
+         because for 2v2 to be in $\SUBSTRING(w)$, $v$ must be in 
+         $\{0^n1^n \mid n \ge 0\}$, which it clearly isn't. 
+         Attempting to derive $w$ results in the following:
+        \begin{align*}
+            S &\Rightarrow 2AS2 \Rightarrow 20A1S2 \Rightarrow 
+            20\epsilon1S2 \Rightarrow 201S2
+        \end{align*}
+        Note: At no productions of $S$ can we derive a $0$, $qed$.
+    \end{itemize}
+
     \paragraph*{(b)}
         \textbf{Answer: } 
 

@@ -1,11 +1,13 @@
 # Fdb version 4
-["pdflatex"] 1683092010 "/Users/devanshijain/Documents/GitHub/cse105hw4/hw4CSE105Sp23.tex" "hw4CSE105Sp23.pdf" "hw4CSE105Sp23" 1683092011 0
-  "/Users/devanshijain/Documents/GitHub/cse105hw4/hw4CSE105Sp23.tex" 1683092010 2536 721936dde080ac0705de0e1d2dcbc55f ""
+["pdflatex"] 1683093430 "/Users/devanshijain/Documents/GitHub/cse105hw4/hw4CSE105Sp23.tex" "hw4CSE105Sp23.pdf" "hw4CSE105Sp23" 1683093430 0
+  "/Users/devanshijain/Documents/GitHub/cse105hw4/hw4CSE105Sp23.tex" 1683093429 3429 dc0e6341342fb33994e792a353306965 ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1683069154 82507 a9eef8696c92627b87e9975edea03b2a ""
+  "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1682620260 11548 95cc1fdc7865fceaad97dce40f3a81af ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs10.tfm" 1682477849 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs5.tfm" 1682477850 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs7.tfm" 1682477850 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1683069170 23194846 35b64fc1df97f59943cefb8f4b1d2b87 ""
+  "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1682477249 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1682477187 1004 54797486969f23fa377b128694d548df ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1682477187 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1682477187 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -162,9 +164,9 @@
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1682477835 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1682477264 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/Users/devanshijain/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1682477264 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "hw4CSE105Sp23.aux" 1683092011 642 270a3c28a4676d2ec68c14d3571fc57a "pdflatex"
-  "hw4CSE105Sp23.out" 1683092011 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "hw4CSE105Sp23.tex" 1683092010 2536 721936dde080ac0705de0e1d2dcbc55f ""
+  "hw4CSE105Sp23.aux" 1683093430 642 270a3c28a4676d2ec68c14d3571fc57a "pdflatex"
+  "hw4CSE105Sp23.out" 1683093430 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "hw4CSE105Sp23.tex" 1683093429 3429 dc0e6341342fb33994e792a353306965 ""
   (generated)
   "hw4CSE105Sp23.aux"
   "hw4CSE105Sp23.log"
